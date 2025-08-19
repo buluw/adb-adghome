@@ -40,7 +40,7 @@ jobs:
 
       # 步骤4: 自动提交更新
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5[6](@ref)
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: Update AdGuard rules from source"
           file_pattern: adguard-rules.txt
