@@ -1,24 +1,21 @@
 name: Auto-Update AdGuard Rules
 on:
-  # 1. 监听目标仓库的更新（通过手动触发或定时检查）
-  workflow_dispatch:  # 手动触发按钮
+  workflow_dispatch:  
   schedule:
     - cron: "0 */6 * * *" 
   push:
     paths:
-      - "adguard-rules.txt"  # 排除自身修改的触发[5,7](@ref)
+      - "adguard-rules.txt"  
 
 jobs:
   process-rules:
     runs-on: ubuntu-latest
     steps:
-      # 步骤1: 检出当前仓库
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 获取完整提交历史[1](@ref)
+          fetch-depth: 0 
 
-      # 步骤2: 下载源文件并检查更新
       - name: Download and compare rules
         run: |
           curl -sSfL -o latest.txt https://raw.githubusercontent.com/ignaciocastro/a-dove-is-dumb/main/pihole.txt
@@ -30,7 +27,7 @@ jobs:
 
       - name: Format rules
         run: |
-          sed -e 's/^/||/' -e 's/$/^/' latest.txt > adguard-rules.txt
+          grep -v "^#" latest.txt | sed -e 's/^/||/' -e 's/$/^/' > adguard-rules.txt
 
           sort -u adguard-rules.txt -o adguard-rules.txt
 
