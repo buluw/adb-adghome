@@ -1,11 +1,3 @@
-||# 0.0.0.0 can be found in https://a.dove.isdumb.one/list.txt^
-||# Last update: 2025-08-18 10:55 UTC^
-||# Or follow updates at https://a.dove.isdumb.one/telegram^
-||# Pop up window? Report at:^
-||# These IPs will only block the telemetry check of Adobe apps,^
-||# and shouldn't interfere with any other network option,^
-||# https://github.com/ignaciocastro/a-dove-is-dumb/issues^
-||# such as AI generation, downloads, etc.^
 ||00nllmoilmti.p5jr3.adobestats.io^
 ||017sxef5kv.adobestats.io^
 ||019n8v7a8f.adobestats.io^
