@@ -688,6 +688,7 @@
 ||bh20cumiu6.adobestats.io^
 ||bh6n7lpm.sisww.adobestats.io^
 ||bi53a572lf.lqn0m.adobestats.io^
+||bj8plmjqan65.hzm8t.adobestats.io^
 ||bjmidsgqgni.jiegg.adobestats.io^
 ||bjuwmkbua.68gqg.hstatic.io^
 ||bjvux5rqmo.xwk4b.adobestats.io^
@@ -761,6 +762,7 @@
 ||cmi1l4log.n5wo7.adobestats.io^
 ||co0usxic.4wbo1.adobestats.io^
 ||comm5zduyj.vf1av.adobestats.io^
+||cov6aqcy63g.sf7e3.adobestats.io^
 ||cqrm90tvld.adobestats.io^
 ||crieo4tus44.wzwva.adobestats.io^
 ||crs.cr.adobe.com^
@@ -883,6 +885,7 @@
 ||esosrj2f.4wbo1.adobestats.io^
 ||esosrj2fi3.4wbo1.adobestats.io^
 ||euok5ynyar.hzm8t.adobestats.io^
+||euphlhom0nl.hzm8t.adobestats.io^
 ||ew60mvgri9.adobestats.io^
 ||ewcovphpsa.adobestats.io^
 ||eyau6w2747.adobestats.io^
