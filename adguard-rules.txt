@@ -288,6 +288,7 @@
 ||3kqudwluux.adobestats.io^
 ||3lrdpo0sna.4e2id.adobestats.io^
 ||3m3e8ccqyo.adobestats.io^
+||3mi91v6oh.xwk4b.adobestats.io^
 ||3mmyrmpxdx.adobestats.io^
 ||3nighhxspa.adobestats.io^
 ||3nkkaf8h85.adobestats.io^
@@ -1900,6 +1901,7 @@
 ||mazx7abooh.p5jr3.adobestats.io^
 ||mbiowykjov.adobestats.io^
 ||mbksaqsgke.adobestats.io^
+||mbw8dzoc3.lqn0m.adobestats.io^
 ||mbya1atovd.adobestats.io^
 ||mcipkpliea.adobestats.io^
 ||mcopdk4hb545.7kdvx.hstatic.io^
