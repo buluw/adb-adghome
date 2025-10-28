@@ -1442,6 +1442,7 @@
 ||gwfzmvq8il.4cbdo.adobestats.io^
 ||gwpap9jc04.iwl5c.adobestats.io^
 ||gwzwlfgl4b.adobestats.io^
+||gxgk4ecdci1.lqn0m.adobestats.io^
 ||gxrwd8hxqi.adobe.io^
 ||gxxbj1neou.adobestats.io^
 ||gxxj3ht33q.adobestats.io^
@@ -1957,6 +1958,7 @@
 ||mpoc5nfxece.td3wc.adobestats.io^
 ||mppjs7oz.pkxns.adobestats.io^
 ||mpsige2va9.adobestats.io^
+||mpyyvxywdp.adobestats.io^
 ||mqiy2s5exv.adobestats.io^
 ||mr8ybffx1n.adobestats.io^
 ||mr9hl8gv47.adobestats.io^
