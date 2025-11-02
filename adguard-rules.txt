@@ -166,6 +166,7 @@
 ||20x112xlz4.adobestats.io^
 ||20y5y8p6lcg.61y77.adobestats.io^
 ||218bokqluc.adobestats.io^
+||21f25nfs2j.hzm8t.adobestats.io^
 ||220zxtbjjl.adobestats.io^
 ||224me58l5q.adobestats.io^
 ||22gda3bxkb.adobe.io^
@@ -3014,6 +3015,7 @@
 ||zrbzvc9mel.adobestats.io^
 ||zrri2w3ds6.3xjvl.adobestats.io^
 ||zrwjapcekk.adobestats.io^
+||zskrky3lqu.xwk4b.adobestats.io^
 ||zsn6j5czh.7kdvx.hstatic.io^
 ||zsursdyz0d.adobestats.io^
 ||zt4lgvrs9a.adobestats.io^
