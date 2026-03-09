@@ -23,7 +23,7 @@ jobs:
           
           # 3. 转换逻辑
           # payload: 开头
-          echo "payload:" > adguard_merged.yaml
+          echo "payload:" > adobeclash.yaml
           
           # 提取 ||domain.com^ 格式，去除重复项，并转换为 Clash 格式
           grep "^||" combined_raw.txt | \
