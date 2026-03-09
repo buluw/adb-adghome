@@ -29,7 +29,7 @@ jobs:
           grep "^||" combined_raw.txt | \
           sed 's/^||//g; s/\^//g; s/\r//g' | \
           sort -u | \
-          awk '{print "  - DOMAIN-SUFFIX,"$1}' >> adguard_merged.yaml
+          awk '{print "  - DOMAIN-SUFFIX,"$1}' >> adobeclash.yaml
 
       - name: Commit and Push
         run: |
