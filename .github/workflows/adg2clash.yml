@@ -1,0 +1,40 @@
+name: Merge and Convert AdGuard Rules to Clash
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天北京时间上午8点运行
+  workflow_dispatch:
+
+jobs:
+  merge_and_convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download, Merge and Convert
+        run: |
+          # 1. 下载两个规则文件到临时文件
+          curl -sSL "https://raw.githubusercontent.com/buluw/adb-adghome/refs/heads/main/adguard-rules.txt" -o rules1.txt
+          curl -sSL "https://raw.githubusercontent.com/buluw/adb-adghome/refs/heads/main/adobe2.txt" -o rules2.txt
+          
+          # 2. 合并内容
+          cat rules1.txt rules2.txt > combined_raw.txt
+          
+          # 3. 转换逻辑
+          # payload: 开头
+          echo "payload:" > adguard_merged.yaml
+          
+          # 提取 ||domain.com^ 格式，去除重复项，并转换为 Clash 格式
+          grep "^||" combined_raw.txt | \
+          sed 's/^||//g; s/\^//g; s/\r//g' | \
+          sort -u | \
+          awk '{print "  - DOMAIN-SUFFIX,"$1}' >> adguard_merged.yaml
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add adguard_merged.yaml
+          git commit -m "Update merged Clash rules $(date +'%Y-%m-%d')" || exit 0
+          git push
