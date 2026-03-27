@@ -6,7 +6,10 @@ on:
   push:
     paths:
       - "adguard-rules.txt"  
-
+env:
+  # 强制使用 Node 24 运行 JavaScript Actions
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  
 jobs:
   process-rules:
     runs-on: ubuntu-latest
