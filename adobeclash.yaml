@@ -1343,6 +1343,7 @@ payload:
   - DOMAIN-SUFFIX,cclibraries-defaults-cdn.adobe.com
   - DOMAIN-SUFFIX,cclibraries-defaults-cdn.adobe.com.edgekey.net
   - DOMAIN-SUFFIX,cctypekit.adobe.io
+  - DOMAIN-SUFFIX,ccwlsz1v.bgvqb.adobestats.io
   - DOMAIN-SUFFIX,cd536oo20y.adobe.io
   - DOMAIN-SUFFIX,cde0alxs25.adobestats.io
   - DOMAIN-SUFFIX,cducupwlaq.adobestats.io
